@@ -1,3 +1,30 @@
+2001-11-20  Tim Jenness  <timj@jach.hawaii.edu>
+
+	* Version 0.54 on CPAN
+	
+	* LaTeX.pm (command): Fix the logic in =for blocks (found because
+	perlpod.pod was not formatting correctly with "=for comment".
+
+2001-11-19  Tim Jenness  <timj@jach.hawaii.edu>
+
+	* LaTeX.pm (verbatim): Use a cleverer approach to tabs. (Hugh S
+	Myers <hughmyers@micron.com>)
+	(_replace_special_chars_late): verbar escape was happening in the
+	wrong place and this was ruining link expansion.
+	(add_item): Tweak so that we for long items we have some content
+	in the item description itself and some bold. This makes sure that
+	everything lines up. (thanks to Hugh S Myers for the original idea
+	and for the _split_delimited method).
+
+2001-11-16  Tim Jenness  <timj@jach.hawaii.edu>
+
+	* LaTeX.pm (_replace_special_chars_late): Finally agree to escape
+	< and > (thanks to some more prodding from Hugh S Myers)
+
+2000-10-10  Tim Jenness  <timj@jach.hawaii.edu>
+
+	* pod2latex: Add strict and version number.  Add -h1level option.
+
 2000-09-22  Tim Jenness  <timj@jach.hawaii.edu>
 
 	* Release 0.53 to CPAN
@@ -11,7 +38,7 @@
 	* LaTeX.pm (add_item): Handle long item strings (from  Mark
 	A. Hershberger <mah@everybody.org>)
 	(_replace_special_chars): Escape ~ (from Simon Cozens
-	<simon@@cozens.net>)
+	<simon@cozens.net>)
 	Escape | (thanks to Marcel Grunauer <marcel@codewerk.com>)
 	Add support for E<verbar> and E<sol>
 
