@@ -36,7 +36,7 @@ use Carp;
 
 use vars qw/ $VERSION %HTML_Escapes @LatexSections /;
 
-$VERSION = '0.51';
+$VERSION = '0.52';
 
 # Definitions of =headN -> latex mapping
 @LatexSections = (qw/
@@ -1560,7 +1560,7 @@ under the same terms as Perl itself.
 
 =head1 REVISION
 
-$Id: LaTeX.pm,v 1.3 2000/05/09 03:22:38 timj Exp $
+$Id: LaTeX.pm,v 1.4 2000/05/16 01:26:55 timj Exp $
 
 =end __PRIVATE__
 
