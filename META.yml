@@ -1,0 +1,14 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Pod-LaTeX
+version:      0.58
+version_from: LaTeX.pm
+installdirs:  perl
+requires:
+    Pod::Find:                     0
+    Pod::Parser:                   0
+    Pod::ParseUtils:               0
+    Pod::Select:                   0
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17

@@ -7,3 +7,4 @@ Makefile.PL
 t/require.t
 t/pod2latex.t
 t/user.t
+META.yml                                 Module meta-data (added by MakeMaker)
