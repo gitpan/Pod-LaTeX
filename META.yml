@@ -15,7 +15,7 @@ name: Pod-LaTeX
 provides:
   Pod::LaTeX:
     file: lib/Pod/LaTeX.pm
-    version: 0.59
+    version: 0.60
 requires:
   Pod::Find: 0
   Pod::ParseUtils: 0.3
@@ -25,4 +25,4 @@ resources:
   homepage: http://github.com/timj/perl-Pod-LaTeX/tree/master
   license: http://dev.perl.org/licenses/
   repository: git://github.com/timj/perl-Pod-LaTeX.git
-version: 0.59
+version: 0.60
